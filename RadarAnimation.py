@@ -109,7 +109,7 @@ class RadarApp:
 
         self.more_info_link = tk.Label(self.vcp_panel, text="More Info", font=("Helvetica", 14, "underline"), fg="blue", cursor="hand2")
         self.more_info_link.pack(pady=(20, 5))
-        self.more_info_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://docs.google.com/spreadsheets/d/1gJOoY1DBSZMOYpcr7YDRyP_9xr7K7DVnPmAeFoB9Hfg/edit?gid=0#gid=0"))
+        self.more_info_link.bind("<Button-1>", lambda e: webbrowser.open_new("https://www.roc.noaa.gov/public-documents/engineering-branch/new-technology/vcp/level-two/pdf/misc/New_VCP_Paradigm_Public_Oct_2015.pdf"))
 
         # Spacer to push logo down
         tk.Frame(self.right_controls).pack(expand=True, fill='both')
